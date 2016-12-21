@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+    
+<color name="configTitle">#666666</color>
+<color name="wheelItemNone">#808080</color>
+<color name="wheelItem1">#FF0000</color> 
+<color name="wheelItem2">#FFFF00</color>
+<color name="wheelItem3">#74C600</color>
+<color name="wheelItem4">#00A0F3</color>
+<color name="wheelItem5">#4D0088</color>
+<color name="wheelItem6">#FF59B6</color>
+</resources>

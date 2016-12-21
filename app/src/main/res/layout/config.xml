@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:id="@+id/rootLinearLayout"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:orientation="vertical" android:padding="5dip">
+		<TextView android:id="@+id/labelTextView"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:text="@string/config" android:layout_marginBottom="6dip"
+			android:padding="3dip" android:background="@color/configTitle"
+			android:gravity="center" />
+		<LinearLayout android:id="@+id/linear1"
+			android:orientation="horizontal" android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<TextView android:id="@+id/textView1" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:width="15dip"
+				android:gravity="center" android:textColor="#FFFFFF"
+				android:layout_marginRight="5dip" android:textStyle="bold"
+				android:text="N" android:background="@color/wheelItemNone" />
+			<EditText android:id="@+id/editText1" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_weight="1"
+				android:singleLine="true" />
+			<ImageButton android:id="@+id/delImage1"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:src="@drawable/del" />
+			<ImageButton android:id="@+id/voiceImage1"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:src="@drawable/mic" />
+			<ImageButton android:id="@+id/camImage1"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:src="@drawable/cam" />
+		</LinearLayout>
+		<LinearLayout android:id="@+id/linear2"
+			android:orientation="horizontal" android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<TextView android:id="@+id/textView2" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:width="15dip"
+				android:gravity="center" android:textColor="#FFFFFF"
+				android:layout_marginRight="5dip" android:textStyle="bold"
+				android:text="N" android:background="@color/wheelItemNone" />
+			<EditText android:id="@+id/editText2" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_weight="1"
+				android:singleLine="true" />
+			<ImageButton android:id="@+id/delImage2"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:src="@drawable/del" />
+			<ImageButton android:id="@+id/voiceImage2"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:src="@drawable/mic" />
+			<ImageButton android:id="@+id/camImage2"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:src="@drawable/cam" />
+		</LinearLayout>
+		<LinearLayout android:id="@+id/linear3"
+			android:orientation="horizontal" android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<TextView android:id="@+id/textView3" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:width="15dip"
+				android:gravity="center" android:textColor="#FFFFFF"
+				android:layout_marginRight="5dip" android:textStyle="bold"
+				android:text="N" android:background="@color/wheelItemNone" />
+			<EditText android:id="@+id/editText3" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_weight="1"
+				android:singleLine="true" />
+			<ImageButton android:id="@+id/delImage3"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:src="@drawable/del" />
+			<ImageButton android:id="@+id/voiceImage3"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:src="@drawable/mic" />
+			<ImageButton android:id="@+id/camImage3"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:src="@drawable/cam" />
+		</LinearLayout>
+		<LinearLayout android:id="@+id/linear4"
+			android:orientation="horizontal" android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<TextView android:id="@+id/textView4" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:width="15dip"
+				android:gravity="center" android:textColor="#FFFFFF"
+				android:layout_marginRight="5dip" android:textStyle="bold"
+				android:text="N" android:background="@color/wheelItemNone" />
+			<EditText android:id="@+id/editText4" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_weight="1"
+				android:singleLine="true" />
+			<ImageButton android:id="@+id/delImage4"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:src="@drawable/del" />
+			<ImageButton android:id="@+id/voiceImage4"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:src="@drawable/mic" />
+			<ImageButton android:id="@+id/camImage4"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:src="@drawable/cam" />
+		</LinearLayout>
+		<LinearLayout android:id="@+id/linear5"
+			android:orientation="horizontal" android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<TextView android:id="@+id/textView5" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:width="15dip"
+				android:gravity="center" android:textColor="#FFFFFF"
+				android:layout_marginRight="5dip" android:textStyle="bold"
+				android:text="N" android:background="@color/wheelItemNone" />
+			<EditText android:id="@+id/editText5" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_weight="1"
+				android:singleLine="true" />
+			<ImageButton android:id="@+id/delImage5"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:src="@drawable/del" />
+			<ImageButton android:id="@+id/voiceImage5"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:src="@drawable/mic" />
+			<ImageButton android:id="@+id/camImage5"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:src="@drawable/cam" />
+		</LinearLayout>
+		<LinearLayout android:id="@+id/linear6"
+			android:orientation="horizontal" android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<TextView android:id="@+id/textView6" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:width="15dip"
+				android:gravity="center" android:textColor="#FFFFFF"
+				android:layout_marginRight="5dip" android:textStyle="bold"
+				android:text="N" android:background="@color/wheelItemNone" />
+			<EditText android:id="@+id/editText6" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_weight="1"
+				android:singleLine="true" />
+			<ImageButton android:id="@+id/delImage6"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:src="@drawable/del" />
+			<ImageButton android:id="@+id/voiceImage6"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:src="@drawable/mic" />
+			<ImageButton android:id="@+id/camImage6"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:src="@drawable/cam" />
+		</LinearLayout>
+		<LinearLayout android:id="@+id/buttonLayout"
+			android:orientation="horizontal" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_marginTop="12dip">
+			<Button android:id="@+id/cleanAllButton" android:text="@string/clearAll"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:layout_weight="1" />
+			<Button android:id="@+id/returnButton" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:text="@string/returnToWheelScreen"
+				android:layout_weight="1" />
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

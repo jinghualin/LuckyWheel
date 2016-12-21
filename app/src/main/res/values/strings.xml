@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">LuckyWheel</string>
+
+	<string name="hello">Hello,World</string>
+	<string name="config">Wheel Config Panel</string>
+	<string name="help">Help</string>
+	<string name="setWheelItems">Set wheel entries</string>
+	<string name="returnToWheelScreen">Back to Wheel Screen</string>
+	<string name="speechTip">Please state the contents of the wheel entry
+	</string>
+	<string name="ok">Ok</string>
+	<string name="clearAll">Clear All</string>
+	<string name="yourChoiceShouldBe">You should choose this ..</string>
+	<string name="needMoreItemsTip">Requires at least two entries to start the
+		wheel.\nPlease go to the Configuration screen to be set.</string>
+
+	<string name="touchTip">Quickly toggle wheel with your fingers to start.
+	</string>
+	<string name="softIntro">This is a fun and useful little software. It can
+		help you to quickly make some decisions, such as: Which restaurant are
+		we going to now? Which film shall we go and see? Whom would you like
+		to go to attend the conference? And ... who should I vote?</string>
+	<string name="softHowToUse">How to use:\nFill in the Configuration screen, at
+		least two entries.\nBack to the Wheel screen, Quickly toggle wheel
+		with your fingers to start, Then wait for the result.</string>
+	<string name="softFeatures">The software features:\nSupport the installation to
+		the SD card (Requires at least version 2.2 operating system)\nSupport
+		the voice input (Requires at least version 2.0 operating system and
+		installed Google Voice Search)</string>
+	<string name="softDeclaration">Disclaimer: This software is only for entertainment
+		purposes.</string>
+	<string name="back">Back</string>
+
+</resources>
